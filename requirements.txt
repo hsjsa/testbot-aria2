@@ -7,7 +7,6 @@ ndg-httpsclient>=0.4.0
 oauth>=1.0.1
 pyasn1>=0.4.3
 pyasn1-modules>=0.2.1
-https://github.com/pycurl/pycurl/archive/refs/tags/REL_7_43_0.zip
 uritemplate>=3.0.0
 urllib3>=1.23
 oauth2client
