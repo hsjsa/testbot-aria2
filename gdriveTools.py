@@ -13,7 +13,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                      level=logging.INFO)
 
 
-G_DRIVE_TOKEN_FILE = "auth_token.txt"
+G_DRIVE_TOKEN_FILE = "token.pickle"
 # Copy your credentials from the APIs Console
 CLIENT_ID = Config.G_DRIVE_CLIENT_ID
 CLIENT_SECRET = Config.G_DRIVE_CLIENT_SECRET
