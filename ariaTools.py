@@ -63,7 +63,7 @@ def get_download_by_message(message):
 
 def progress_status(context,update,previous):
 	download = get_download_by_message(update)
-	file = aria2.get_download(download.gid)
+	file = aria2.get_download(download.{gid})
 	if not file.is_complete:
 		if not file.error_message:
 			msg = "<i>"+str(file.name) +"</i>:- " +str(file.progress_string())+" of "+str(file.total_length_string())+" at "+str(file.download_speed_string())+" ,ETA: "+str(file.eta_string())
