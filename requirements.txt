@@ -13,3 +13,4 @@ oauth2client
 aria2p
 python-telegram-bot
 pydrive
+telebot
